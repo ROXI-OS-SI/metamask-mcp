@@ -6,7 +6,7 @@ import { createWagmiConfig } from "./wagmi-config";
 async function main() {
   try {
     const server = new FastMCP({
-      name: "MetaMask",
+      name: "ROXI metamask-mcp",
       version: "1.0.0",
     });
     const wagmiConfig = await createWagmiConfig();
