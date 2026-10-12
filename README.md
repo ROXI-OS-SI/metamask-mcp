@@ -4,7 +4,7 @@
 
 It lets an LLM agent prepare onchain actions and hand them to **your MetaMask wallet** for approval. The agent proposes; you sign. Private keys never leave the wallet.
 
-📖 Docs: [docs.roxi.so](https://docs.roxi.so/)
+📖 Docs: [roxi-ten.vercel.app/docs/servers/metamask-mcp](https://roxi-ten.vercel.app/docs/servers/metamask-mcp)
 
 ---
 
