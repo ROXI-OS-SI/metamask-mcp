@@ -1,6 +1,6 @@
 # 🦊 metamask-mcp
 
-`metamask-mcp` is the signing module of **[ROXI OS](https://github.com/Roxi-OS)**, the Reasoning-Oriented Execution Interface for onchain agents.
+`metamask-mcp` is the signing module of **[ROXI OS](https://github.com/ROXI-OS-SI)**, the Reasoning-Oriented Execution Interface for onchain agents.
 
 It lets an LLM agent prepare onchain actions and hand them to **your MetaMask wallet** for approval. The agent proposes; you sign. Private keys never leave the wallet.
 
@@ -14,7 +14,7 @@ It lets an LLM agent prepare onchain actions and hand them to **your MetaMask wa
 - **No custody** — the server never sees or stores a private key.
 - **Connect by QR** — the agent shows a MetaMask connect QR code or URI; scan it with MetaMask Mobile.
 - **Model-agnostic** — works with Claude, GPT, or any client that speaks the Model Context Protocol (MCP).
-- **Composable** — pairs with [`chainlist-mcp`](https://github.com/Roxi-OS/chainlist-mcp-main), [`erc20-mcp`](https://github.com/Roxi-OS/erc20-mcp-main) and [`solc-mcp`](https://github.com/Roxi-OS/solc-mcp).
+- **Composable** — pairs with [`chainlist-mcp`](https://github.com/ROXI-OS-SI/chainlist-mcp), [`erc20-mcp`](https://github.com/ROXI-OS-SI/erc20-mcp) and [`solc-mcp`](https://github.com/ROXI-OS-SI/solc-mcp).
 
 ## 🧱 How it fits
 
@@ -44,7 +44,7 @@ Add it to your MCP client (for example Claude Desktop's `claude_desktop_config.j
 ### From source
 
 ```bash
-git clone https://github.com/Roxi-OS/metamask-mcp.git
+git clone https://github.com/ROXI-OS-SI/metamask-mcp.git
 cd metamask-mcp
 pnpm install
 pnpm build

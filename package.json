@@ -65,7 +65,7 @@
   "homepage": "https://roxi-ten.vercel.app/docs/servers/metamask-mcp",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Roxi-OS/metamask-mcp.git"
+    "url": "git+https://github.com/ROXI-OS-SI/metamask-mcp.git"
   },
   "publishConfig": {
     "access": "public"
