@@ -1,5 +1,5 @@
 {
-  "name": "metamask-mcp",
+  "name": "@roxi-os/metamask-mcp",
   "type": "module",
   "version": "1.0.0",
   "packageManager": "pnpm@9.14.2",
@@ -66,5 +66,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Roxi-OS/metamask-mcp.git"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
