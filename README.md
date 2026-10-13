@@ -2,9 +2,9 @@
 
 [![npm](https://img.shields.io/npm/v/@roxi-os/metamask-mcp?label=npm&color=c5f24a)](https://www.npmjs.com/package/@roxi-os/metamask-mcp)
 [![license](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
-[![docs](https://img.shields.io/badge/docs-roxi--ten.vercel.app-black)](https://roxi-ten.vercel.app/docs/servers/metamask-mcp)
+[![docs](https://img.shields.io/badge/docs-roxi--os.si-black)](https://roxi-os.si/docs/servers/metamask-mcp)
 
-**The signing module of [ROXI OS](https://roxi-ten.vercel.app)**, the Reasoning-Oriented Execution Interface.
+**The signing module of [ROXI OS](https://roxi-os.si)**, the Reasoning-Oriented Execution Interface.
 
 `metamask-mcp` connects an AI agent to **your MetaMask wallet**. The agent can read chain data and prepare transactions, but anything that moves funds or changes state is sent to MetaMask as a prompt. **You approve it, or nothing happens.** Your private key never leaves the wallet.
 
@@ -47,7 +47,7 @@ Switch to Sepolia and show my ETH balance.
 Send 0.01 ETH to 0x… on Sepolia.
 ```
 
-Full guide: [Connect a wallet](https://roxi-ten.vercel.app/docs/guides/connect-wallet).
+Full guide: [Connect a wallet](https://roxi-os.si/docs/guides/connect-wallet).
 
 ---
 
@@ -117,7 +117,7 @@ Agent → metamask-mcp → MetaMask prompt → You sign → Broadcast
 
 **Prompt:** `be-metamask-assistant` gives the agent step-by-step routines for connecting, sending transactions, calling contracts and deploying them.
 
-Parameters for every tool: [metamask-mcp reference](https://roxi-ten.vercel.app/docs/servers/metamask-mcp).
+Parameters for every tool: [metamask-mcp reference](https://roxi-os.si/docs/servers/metamask-mcp).
 
 ---
 
@@ -128,7 +128,7 @@ Parameters for every tool: [metamask-mcp reference](https://roxi-ten.vercel.app/
 - The wallet session lives in memory and ends when the server stops.
 - Try things on **Sepolia** first.
 
-More: [Security model](https://roxi-ten.vercel.app/docs/security).
+More: [Security model](https://roxi-os.si/docs/security).
 
 ---
 
@@ -165,7 +165,7 @@ Then point your client at the build:
 | [erc20-mcp](https://github.com/ROXI-OS-SI/erc20-mcp) | ERC-20 transfers, approvals and reads |
 | [solc-mcp](https://github.com/ROXI-OS-SI/solc-mcp) | Solidity compilation |
 
-📖 [Documentation](https://roxi-ten.vercel.app/docs) · 📦 [npm](https://www.npmjs.com/org/roxi-os)
+📖 [Documentation](https://roxi-os.si/docs) · 📦 [npm](https://www.npmjs.com/org/roxi-os)
 
 ## 🙏 Credits
 

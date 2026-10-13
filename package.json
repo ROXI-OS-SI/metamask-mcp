@@ -62,7 +62,7 @@
   "lint-staged": {
     "*.ts": "pnpm run lint"
   },
-  "homepage": "https://roxi-ten.vercel.app/docs/servers/metamask-mcp",
+  "homepage": "https://roxi-os.si/docs/servers/metamask-mcp",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ROXI-OS-SI/metamask-mcp.git"
