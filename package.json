@@ -1,7 +1,7 @@
 {
   "name": "@roxi-os/metamask-mcp",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "packageManager": "pnpm@9.14.2",
   "description": "ROXI OS MetaMask MCP server: lets AI agents request wallet signatures while private keys stay in MetaMask.",
   "author": "ROXI OS",
